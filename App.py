@@ -5,6 +5,11 @@ import torchvision.transforms as transforms
 from Testing import process
 from CellClassifier import CellClassifier
 import time
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+model_path = os.getenv("MODEL_PATH")
 
 if 'uploaded_file' not in st.session_state:
     st.session_state.uploaded_file = None
@@ -18,7 +23,7 @@ if 'uploaded_file' not in st.session_state:
 
 
 model = CellClassifier()
-model.load_state_dict(torch.load('/Users/anushkashome/StreamLit/model.pth'))
+model.load_state_dict(torch.load(model_path))
 model.eval()
 device = torch.device("cpu")
 model.to(device)
