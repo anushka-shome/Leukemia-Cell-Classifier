@@ -5,8 +5,11 @@ This is a Streamlit app that takes in an image of a cell and identifies whether 
 Kaggle data set used: https://www.kaggle.com/datasets/andrewmvd/leukemia-classification/data
 
 ## Files
-- **App.py**: Contains the code for the Streamlit app. Running this file through the instructions stated below should open the app on your device
-- **Testing.py**: Used for testing the model. Takes in an image of a cell and identifies whether it is cancerous (prints 0) or healthy (prints 1)
+- **App.py**: Contains the code for the Streamlit app. Running this file through the instructions stated below should open the app on your device.
+- **Testing.py**: Used for testing the model. Takes in an image of a cell and identifies whether it is cancerous (prints 0) or healthy (prints 1).
+- **Training.py**: Contains the code used to build and train the model.
+- **model.pth**: Stores the model created and trained by Training.py and used by Testing.py and App.py.
+- **CellClassifier.py**: Contains the class used to define the model in Training.py, App.py, and Testing.py.
 - 
 ## Setting Up
 After downloading the directory, do the following: <br/>
