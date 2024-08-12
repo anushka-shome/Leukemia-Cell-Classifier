@@ -10,7 +10,7 @@ Kaggle data set used: https://www.kaggle.com/datasets/andrewmvd/leukemia-classif
 - **Training.py**: Contains the code used to build and train the model.
 - **model.pth**: Stores the model created and trained by Training.py and used by Testing.py and App.py.
 - **CellClassifier.py**: Contains the class used to define the model in Training.py, App.py, and Testing.py.
-- 
+- **.env**: Used to store the environment variables containing the model and image paths. These environment variables are used in App.py and Testing.py, and needs to be modified by the user once this directory is loaded into their local environment.
 ## Setting Up
 After downloading the directory, do the following: <br/>
 1. Install necessary libraries: streamlit, torch, pillow, dotenv <br/>
