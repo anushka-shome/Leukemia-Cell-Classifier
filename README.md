@@ -1,7 +1,13 @@
 # Leukemia Cell Classifier
 
+This is a Streamlit app that takes in an image of a cell and identifies whether the cell is cancerous or healthy. <br/>
+
 Kaggle data set used: https://www.kaggle.com/datasets/andrewmvd/leukemia-classification/data
 
+## Files
+- **App.py**: Contains the code for the Streamlit app. Running this file through the instructions stated below should open the app on your device
+- **Testing.py**: Used for testing the model. Takes in an image of a cell and identifies whether it is cancerous (prints 0) or healthy (prints 1)
+- 
 ## Setting Up
 After downloading the directory, do the following: <br/>
 1. Install necessary libraries: streamlit, torch, pillow, dotenv <br/>
@@ -15,4 +21,6 @@ After downloading the directory, do the following: <br/>
      &emsp; - To install the dotenv library, run the following command in your terminal: **pip install python-dotenv** <br/>
      &emsp;&emsp;&emsp;For more information about this library, refer to this link: https://pypi.org/project/python-dotenv/ <br/>
 
-2. Edit the .env file. There are two variables: 
+2. Edit the .env file. There are two variables: The model path and the image path. The MODEL_PATH variable should be the absolute path to the model.pth file on your computer. The IMAGE_PATH variable is only used for running the Testing.py file, and should be the absolute path to an image you're interested in finding the classification of.
+
+3. The main part of this project is the Streamlit app. To run the app, open your terminal and navigate to the directory where the App.py file is located. Once in the directory, type the command **streamlit run App.py**. This should open the app in your default web browser.
