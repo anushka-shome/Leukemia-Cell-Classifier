@@ -29,4 +29,13 @@ After downloading the directory, do the following: <br/>
 3. The main part of this project is the Streamlit app. To run the app, open your terminal and navigate to the directory where the App.py file is located. Once in the directory, type the command **streamlit run App.py**. This should open the app in your default web browser.
 
 ## Screenshots of the app
+The image below shows the starts screen of the app:
+<br/>
+![Starting screen](https://github.com/user-attachments/assets/85055e39-a603-4022-bb2b-e6653007b1aa)
+<br/>
+Once you upload an image of a cell, the image will pop up on and the app will indicate that it is in the process of classifying the image:
+<br/>
+![Uploaded image on screen](https://github.com/user-attachments/assets/b0616c92-d9a8-4e30-a115-cc3e60986d38)
+![Uploaded image with 'Classifying...' appearing at the bottom](https://github.com/user-attachments/assets/96ed1a35-09d1-46bf-bd4a-f17bf362ac6d)
+Then, the classification pops up (either cancerous or healthy) and a reset button appears.
 
