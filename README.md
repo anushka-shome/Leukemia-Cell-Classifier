@@ -27,3 +27,6 @@ After downloading the directory, do the following: <br/>
 2. Edit the .env file. There are two variables: The model path and the image path. The MODEL_PATH variable should be the absolute path to the model.pth file on your computer. The IMAGE_PATH variable is only used for running the Testing.py file, and should be the absolute path to an image you're interested in finding the classification of.
 
 3. The main part of this project is the Streamlit app. To run the app, open your terminal and navigate to the directory where the App.py file is located. Once in the directory, type the command **streamlit run App.py**. This should open the app in your default web browser.
+
+## Screenshots of the app
+
