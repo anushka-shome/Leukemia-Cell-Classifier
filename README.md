@@ -38,4 +38,5 @@ Once you upload an image of a cell, the image will pop up on and the app will in
 ![Uploaded image on screen](https://github.com/user-attachments/assets/b0616c92-d9a8-4e30-a115-cc3e60986d38)
 ![Uploaded image with 'Classifying...' appearing at the bottom](https://github.com/user-attachments/assets/96ed1a35-09d1-46bf-bd4a-f17bf362ac6d)
 Then, the classification pops up (either cancerous or healthy) and a reset button appears.
+![image](https://github.com/user-attachments/assets/d0476539-60e2-44a3-9988-9b60d8810e54)
 
